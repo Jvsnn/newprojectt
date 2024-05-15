@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>LESSON LENS</title>
+      <!-- Favicon -->
+      
+      <!-- Bootstrap CSS -->
+      <link href="{% static "assets/css/bootstrap.min.css" %}" rel="stylesheet">
+      <!-- Animate CSS -->
+      <link href="{% static "assets/vendors/animate/animate.css" %}" rel="stylesheet">
+      <!-- Icon CSS-->
+      <link rel="stylesheet" href="{% static "assets/vendors/font-awesome/css/font-awesome.min.css" %}">
+      <!-- Owlcarousel CSS-->
+      <link rel="stylesheet" type="text/css" href="{% static "assets/vendors/owl_carousel/owl.carousel.css" %}" media="all">
+      <!--Template Styles CSS-->
+      <link rel="stylesheet" type="text/css" href="{% static "assets/css/style.css" %}" media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+   </head>
+   <body>
+      <div class="bg-grediunt" >
+         {% comment %} <div class="bg-banner-img clip-ellipse">
+            <div class="ovrllay"> {% endcomment %}
+           
+               <!-- Header_Area -->
+               <nav class="navbar navbar-default header_aera affix-top">
+                  <div class="container m-s" style="background: linear-gradient(to bottom, #33ccff 0%, #000066 100%);">
+                     <!-- Brand and toggle get grouped for better mobile display -->
+                     <div class="col-md-4 p0">
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           </button>
+                           <a class="navbar-brand logo-biss" href="index.html"> 
+                              {% comment %} <img src="{% static "assets/images/logo_img.png" %}"> {% endcomment %}
+                              <br>LESSON LENS
+                           </a>
+                        </div>
+                     </div>
+                     <!-- Collect the nav links, forms, and other content for toggling -->
+                     <div class="col-md-8 p0">
+                        <div class="collapse navbar-collapse" id="min_navbar">
+                          <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown submenu">
+                           <a href="/" class="">Home</a>
+                        </li>
+                         {% comment %} <li class="dropdown submenu">
+                           <a href="about.html" class="">About</a>
+                        </li>
+                        <li class="dropdown submenu">
+                           <a href="services.html" class=""> Services</a>
+                        </li>
+                        <li class="dropdown submenu">
+                           <a href="blog.html" class="">Blog</a>
+                        </li>
+                        <li class="dropdown submenu">
+                           <a href="elements.html" class="">Elements</a>
+                        </li> {% endcomment %}
+                        {% comment %} <li class="dropdown submenu">
+                           <a href="login" class="">Login</a>
+                        </li> {% endcomment %}
+                      
+                     </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                     </div>
+                  </div>
+                  <!-- /.container -->
+               </nav>
+               <!-- End Header_Area -->
+               <!-- #banner start -->
+               {% comment %} <section id="banner" class=" mb-90">
+                  <div class="container ">
+                     <div class="row">
+                        <!-- #banner-text start -->            
+                        <div id="banner-text" class="col-md-12 text-c text-center ">
+                           <h5 class="wow fadeInUp main-h" data-wow-delay="0.2s" >End-to-End Customer Journey Analytics</h5>
+                           <p class="banner-text wow fadeInUp main-h3" data-wow-delay="0.8s">No hours sank into aggregating and cleaning data. No complex SQL queries required. Just the answers <br> teams need to make smarter decisions, fast. Now, that's data-driven.</p>
+                           <div class="top-banner wow fadeInRight">
+                              <a id="#services"  href="contact.html" class="btn btn-default  wow fadeInUp  js-scroll-trigger" data-wow-delay="1s" href="#">GeT STARTED FOR FREE</a>
+                           </div>
+                        </div>
+                        <!-- /#banner-text End -->
+                     </div>
+                  </div>
+               </section> {% endcomment %}
+            {% comment %} </div>
+            </div> {% endcomment %}
+      
+         <!-- /#banner end -->
+        
+         <!--#Our Partners Area -->
+         {% comment %} <div class="our_partners_area py-70 pt_banner_30">
+            <div class="container">
+              
+              
+            </div>
+         </div> {% endcomment %}
+      </div>
+      <!--#End Our Partners Area -->
+
+      {% block content %}
+      {% endblock  %}
+            <!--#start Our footer Area -->
+      <div class="our_footer_area">
+         <div class="book_now_aera ">
+            <div class="container wow fadeInUp">
+               <div class="row book_now">
+                  <div class="col-md-4">
+                     <div class="">
+                        <a class=" logo-biss" href="index.html"> 
+                            {% comment %} <img src="{% static "assets/images/logo_img.png" %}"> {% endcomment %}
+                            LESSON LENS
+                        </a>
+                     </div>
+                     <p class="footer-h">
+                        It is a long established fact that a btn btn-defaulter will be distracted by the btn btn-defaultable content of a page when looking at its layout.
+                     </p>
+                     <div class="bigpixi-footer-social">
+                        {% comment %} <a href="" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="" target="_blank"><i id="social-em" class="fa fa-instagram fa-3x social"></i></a> {% endcomment %}
+                     </div>
+                  </div>
+                  <div class="col-md-1 ">
+                  </div>
+                  <div class="col-md-3">
+                     {% comment %} <h2 class="footer-top">SOLUTIONS </h2>
+                     <ul class="footer-menu">
+                        <li><a href=""> SaaS    </a></li>
+                        <li><a href=""> Mobile  </a> </li>
+                        <li><a href="">Commerce    </a> </li>
+                        <li><a href="">    Gaming    </a> </li>
+                        <li><a href="">   Finance   </a> </li>
+                        <li><a href="">         Media   </a></li>
+                     </ul> {% endcomment %}
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="location">
+                        {% comment %} <li class="footer-left-h"><i class="fa fa-map-marker"></i>505 Thornall St #301, Edison, <br>NJ 08837, USA</li>
+                        <li class="footer-left-h"><i class="fa fa-phone"></i>Call Us <br>+1- 982-8-587 452
+                           <br>+1- 982-8-587 452
+                        </li>
+                        <li class="footer-left-h"><i class="fa fa-envelope-o"></i>Email<br>
+                           <a href=""> enquiry@demo.com </a></br><a href=""> enquiry@demo.com </a>
+                        </li> {% endcomment %}
+                        <p class="color-gray">  
+                           {% comment %} <a href="https://themewagon.com/theme_tag/free/">Free HTML5 Templates</a> distributed by <a href="https://themewagon.com/">ThemeWagon</a>  {% endcomment %}
+                        </p>
+                     </ul>
+                  </div>
+                   <div class="col-md-12">
+                    {% comment %} <p class="color-gray">  <a href="https://www.navthemes.com/free-html-templates/">Free HTML Template</a> by <a href="https://www.navthemes.com">NavThemes </a> </p> {% endcomment %}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--#End Our footer Area -->
+      <!-- The following is only needed when the video is in the html
+         otherwise the who .hero__overlay html can be removed -->
+      <div class="hero__overlay">
+         <div class="hero__modal">
+            <a class="hero__close" href="#">Close</a>
+            <iframe allowscriptaccess="always" id="hero-video" class="hero__player" src="https://www.youtube.com/embed/1NSA8ycGfKg?enablejsapi=1&html5=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+         </div>
+         <!-- /.hero__modal -->    
+      </div>
+      <!-- /.hero__overlay -->
+      <!-- jQuery JS -->
+      <script src="{% static "assets/js/jquery-1.12.0.min.js" %}"></script>
+      <!-- Bootstrap JS -->
+      <script src="{% static "assets/js/bootstrap.min.js" %}"></script>
+       <script src="{% static "assets/vendors/popup/lightbox.min.js" %}"></script>
+      <!-- Animate JS -->
+      <script src="{% static "assets/vendors/animate/wow.min.js" %}"></script>
+      <!-- Owlcarousel JS -->
+      <script src="{% static "assets/vendors/owl_carousel/owl.carousel.min.js" %}"></script>
+      <!-- Stellar JS -->
+    
+      <!-- Theme JS -->
+      <script src="{% static "assets/js/theme.min.js" %}"></script>
+   </body>
+</html>
